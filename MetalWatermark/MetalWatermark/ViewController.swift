@@ -75,7 +75,6 @@ class ViewController: UIViewController {
     
     func playVideo(url: URL, view: UIView) {
         playerLayer?.removeFromSuperlayer()
-        
         player = AVPlayer(url: url)
         
         playerLayer = AVPlayerLayer(player: player)
